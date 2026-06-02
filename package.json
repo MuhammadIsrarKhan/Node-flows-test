@@ -1,0 +1,21 @@
+{
+  "name": "title-flow-test",
+  "version": "1.0.0",
+  "description": "Compare async patterns (callbacks, async.js, Promises, RxJS) for fetching website titles",
+  "scripts": {
+    "callback": "nodemon src/callback/index.js",
+    "promise": "nodemon src/promise/index.js",
+    "async": "nodemon src/async/index.js",
+    "rxjs": "nodemon src/rxjs/index.js",
+    "test": "node --test src/lib/utils.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "async": "^3.2.6",
+    "nodemon": "^3.1.14",
+    "rxjs": "^7.8.2"
+  }
+}
