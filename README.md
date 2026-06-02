@@ -45,14 +45,6 @@ http://localhost:3000/I/want/title?address=google.com&address=github.com
 
 Response: an HTML page listing each address and its fetched title (or `NO RESPONSE` on failure).
 
-## Tests
-
-```bash
-npm test
-```
-
-Tests cover pure helper functions in `src/lib/utils.js` (`normalizeAddress`, `extractTitle`).
-
 ## Why four implementations?
 
 This repo is a comparison lab for discussing async concurrency in Node.js:
